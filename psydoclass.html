@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        a {
+            text-decoration: none;
+        }
+
+        a:link {
+            color: green;
+        }
+
+        a:visited {
+            color: brown;
+        }
+
+        a:hover {
+            color: pink;
+        }
+
+        a:active {
+            color: blueviolet;
+        }
+
+        input[type="text"]{
+            border: none;
+            border-bottom: 2px solid black;
+        }
+
+        input[type="text"]:focus{
+            outline: none;
+        }
+        
+        input[type="number"]:in-range{
+            border: 2px solid green;
+        }
+         
+        input[type="number"]:out-of-range{
+            border: 2px solid red;
+        }
+ 
+        div{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            opacity: .3;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <a href="fffeff">HOME</a>
+
+    Name<input type="text">
+    Number<input type="number" min="0" max="7">
+
+    <div></div>
+</body>
+
+</html>

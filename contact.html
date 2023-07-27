@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Contact</title>
+    <style>
+        input[type="text"],
+        textarea {
+            border: none;
+            outline: none;
+            border-bottom: 2px solid white;
+            background-color: #0808d3;
+            margin-left: 25px;
+            margin-right: 25px;
+            margin-top: 12px;
+            padding-bottom: 5px;
+
+        }
+
+        input[type="SUBMIT"] {
+            margin-bottom: 10px;
+            border-radius: 20px;
+            padding: 5px 20px;
+            background-color: #c71577;
+            border-style: none;
+            color: white;
+        }
+
+        .abc {
+            background-color: #0808d3;
+            padding-top: 10px;
+            color: white;
+            font-weight: bold;
+            font-size: larger;
+            font-family: Arial, Helvetica, sans-serif;
+            ;
+        }
+
+        ::placeholder {
+            color: white;
+        }
+
+        .fa-solid {
+            color: #c71577;
+        }
+
+        .fa-envelope {
+            margin-top: 35px;
+        }
+
+        table {
+            background-color: #0808d3;
+            margin-top: 35px;
+            box-shadow: 2px 1px 2px black;
+        }
+    </style>
+</head>
+
+<body style="background-color: rgb(199, 20, 119);">
+    <center>
+        <table>
+            <caption class="abc">CONTACT FORM</caption>
+
+            <form method="post">
+                <tr>
+                    <td><i class="fa-solid fa-user"></i><input size="70" type="text" placeholder="Enter Your Name"></td>
+                </tr>
+                <tr>
+                    <td><i class="fa-brands fa-solid fa-telegram"></i><input size="70" type="text"
+                            placeholder="Enter Your Email"></td>
+                </tr>
+                <tr>
+                    <td><i class="fa-solid fa-envelope"></i><textarea cols="72" rows="10"
+                            placeholder="Your Message"></textarea></td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;"><input type="SUBMIT"></td>
+                </tr>
+            </form>
+        </table>
+    </center>
+</body>
+
+</html>

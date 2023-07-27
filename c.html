@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border</title>
+    <style>
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+
+        div{
+            height: 100px;
+            width: 100px;
+            background-color: green;
+            margin: 30px;
+            border-top: 2px dashed red;
+            border-bottom: 2px dotted pink;
+            border-left: 2px double black;
+            border-right: 2px inset blue;
+            border-radius: 50%;
+        }
+
+        #xyz{
+            height: 50px;
+            width: 50px;
+            margin: 20px 25px;
+            background-color: brown;
+        }
+
+        marquee{
+            margin-top: 15px;
+            margin-left: 15px;
+            font-family: cursive;
+            font-size: large;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div>
+       <div id="xyz">
+        <marquee direction="up">hii</marquee>
+       </div>
+    </div>
+</body>
+</html>
